@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    padding: 100px 30px;
+}
+
+.container{
+    flex-direction: column;
+    margin: 80%;
+    padding: 30px;
+    margin-top: 345px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 14px 1px #00000024 ;
+}
+
+.com-sec{
+    margin-top: 23px;
+   margin-bottom: 70px;
+   line-height: 1.6;
+}
+
+.com-header{
+    color: rgb(60, 150, 150);
+}
+
+.com-h3{
+    color: rgba(116, 174, 28, 0.851);
+    margin: 10px 0px;
+}
+
+.com-sec p {
+    color: rgb(167, 167, 167);
+}
+
+.bottom{
+    margin: -30px;
+    color: white;
+}
+
+.sub{
+    background-color: darkcyan;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+.price{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.date{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 17px;
+    color: lightgrey;
+}
+
+.btn{
+    color: white;
+    background-color: greenyellow;
+    border: none;
+    outline: none;
+    padding: 15px;
+    min-width: 100%;
+    border-radius: 4px;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: rgb(147, 214, 47);
+}
+
+.why-us{
+    background-color: rgb(1, 164, 164);
+    padding: 30px;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.why-us h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+@media screen and (min-width:768px){
+    .container{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom{
+        display: flex;
+    }
+    .sub{
+        width: 50%;
+    }
+    .why-us{
+        width: 50%;
+    }
+}
